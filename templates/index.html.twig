@@ -1,0 +1,14 @@
+{# templates/index.html.twig #}
+<html>
+    <head></head>
+    <body>
+        {{ form_start(form) }}
+        {{ form_row(form.Id) }}
+        {{ form_row(form.Date) }}
+        {{ form_row(form.Subject) }}
+        {{ form_row(form.Text) }}
+        <button type="submit" class="btn btn-primary">Envoyer</button>
+        {{ form_end(form) }}
+        
+    </body>
+</html>
