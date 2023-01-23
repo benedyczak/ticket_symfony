@@ -1,0 +1,14 @@
+{# templates/contact.html.twig #}
+<html>
+    <head></head>
+    <body>
+        {{ form_start(form) }}
+        {{ form_row(form.firstName) }}
+        {{ form_row(form.lastName) }}
+        {{ form_row(form.email) }}
+        {{ form_row(form.message) }}
+        <button type="submit" class="btn btn-primary">Envoyer</button>
+        {{ form_end(form) }}
+        
+    </body>
+</html>
